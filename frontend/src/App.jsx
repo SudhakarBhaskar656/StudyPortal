@@ -8,16 +8,20 @@ import MyCourses from './pages/MyCourses';
 import CourseDetails from './pages/CourseDetails';
 import MyOrders from './pages/MyOrders';
 import AdminDashboard from './pages/AdminDashboard';
+import LandingPage from './pages/LandingPage';
+import Footer from './components/Footer';
 import './App.css';
 
 export default function App() {
   return (
     <BrowserRouter>
       <Navbar />
+      
       <main className="app-container">
         <Routes>
           {/* Public Routes */}
-          <Route path="/" element={<Courses />} />
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/courses" element={<Courses />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
 
@@ -86,6 +90,7 @@ export default function App() {
           />
         </Routes>
       </main>
+      <Footer />
     </BrowserRouter>
   );
 }

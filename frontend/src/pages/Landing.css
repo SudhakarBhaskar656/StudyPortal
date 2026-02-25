@@ -1,0 +1,150 @@
+.landing {
+  font-family: "Segoe UI", sans-serif;
+  color: #1f2937;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e3c72);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-content {
+  max-width: 700px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.primary-btn {
+  background: #3b82f6;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* FEATURES */
+.features {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.section-subtitle {
+  margin-top: 10px;
+  color: #6b7280;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.feature-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+/* STATS */
+.stats {
+  background: #f3f4f6;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  text-align: center;
+}
+
+.stat h3 {
+  font-size: 2rem;
+  color: #3b82f6;
+}
+
+/* HOW IT WORKS */
+.how-it-works {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.step {
+  max-width: 250px;
+}
+
+/* TESTIMONIAL */
+.testimonials {
+  padding: 80px 20px;
+  background: #f9fafb;
+  text-align: center;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 40px;
+  max-width: 600px;
+  margin: 30px auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+/* FINAL CTA */
+.final-cta {
+  background: linear-gradient(135deg, #1e3c72, #3b82f6);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.final-cta button {
+  margin-top: 20px;
+  padding: 14px 30px;
+  border: none;
+  background: white;
+  color: #1e3c72;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
